@@ -16,6 +16,16 @@ body {
   justify-content: center;
 }
 
+.grid {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  column-gap: 60px;
+  row-gap: 44px;
+  place-content: center;
+  
+  }
+
 header h1 {
 color:#02799D;
 font-size: 58px;
@@ -53,11 +63,3 @@ padding: 24px 32px 32px;
   
 }
 
-.grid {
-margin-top: 62px;
-display: grid;
-grid-template-columns: repeat(3, 366px);
-column-gap: 60px;
-row-gap: 44px;
-
-}
